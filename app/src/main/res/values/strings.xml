@@ -7,7 +7,7 @@
     <string name="title_activity_about">About ACL</string>
     <string name="profile_picture">Profile Picture</string>
     <string name="mnca">MNC Aubin</string>
-    <string name="slackMnca">"@MNC Aubin</string>
+    <string name="slackmnca">"@MNC Aubin"</string>
     <string name="country">Country:</string>
     <string name="track">Track:</string>
     <string name="email">Email:</string>

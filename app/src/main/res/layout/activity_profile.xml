@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars[10]" />
+        android:src="@drawable/smiley" />
 
     <TextView
         android:id="@+id/textView"
@@ -149,7 +149,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
         android:layout_marginTop="500dp"
-        android:text="@string/slackMnca"
+        android:text="@string/slackmnca"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

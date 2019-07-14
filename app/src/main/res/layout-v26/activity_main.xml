@@ -16,6 +16,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="#4F83F8"
+        android:onClick="aboutPage"
         android:text="@string/about_alc"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#E0B0B0"
@@ -33,6 +34,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="#4F83F8"
+        android:onClick="profileView"
         android:text="@string/profile"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#E0B0B0"
@@ -40,5 +42,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aboutBtn" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="305dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="bottom"
+        android:text="@string/purpose"
+        android:textAlignment="center"
+        android:textColor="#9E252525"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="311dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="@string/date"
+        android:textAlignment="center"
+        android:textColor="#9E252525"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
